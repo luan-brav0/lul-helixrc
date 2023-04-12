@@ -1,8 +1,19 @@
-  theme = "gruvbox_dark_hard"
+theme = "gruvbox_dark_hard"
 
 [editor]
 line-number = "relative"
-bufferline = "multiple"
+bufferline = "always"
+mouse = false
+completion-trigger-len = 1 
+idle-timeout = 0
+auto-save = true
+
+[editor.lsp]
+display-inlay-hints = true
+display-messages = true
+
+[editor.soft-wrap]
+enable = true
 
 [keys.insert]
 C-c = "normal_mode"
