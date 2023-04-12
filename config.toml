@@ -7,6 +7,7 @@ mouse = false
 completion-trigger-len = 1 
 idle-timeout = 0
 auto-save = true
+color-modes = true
 
 [editor.lsp]
 display-inlay-hints = true
