@@ -1,0 +1,23 @@
+# Author : Sven-Hendrik Haase <svenstaro@gmail.com>
+# Author : Jakub Bartodziej <kubabartodziej@gmail.com>
+# The theme uses the gruvbox dark palette with hard contrast: github.com/morhetz/gruvbox
+
+inherits = "gruvbox"
+
+# "ui.selection.primary" = { bg = "bg4", modifiers = ["reversed"] }
+# "ui.selection" = { bg = "bg3", modifiers = ["reversed"] }
+# "ui.cursor.primary" = { modifiers = ["reversed"] }
+# "ui.cursor.match" = { bg = "bg2" }
+
+# Transparent background
+"ui.background" = { "fg" = "foreground" }
+
+# Fix weird colorful selection
+"ui.selection" = { bg = "bg2" }
+"ui.cursor.primary" = { bg = "fg4", fg = "bg1" }
+"ui.cursor.match" = { bg = "bg3" }
+
+"diagnostic.error" = { underline = { color = "red0", style = "curl"} }
+
+[palette]
+bg0 = "#1d2021" # main background
