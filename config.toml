@@ -26,6 +26,7 @@ A-x = ["extend_line_below", "trim_selections", "delete_selection", "open_above"]
 
 [keys.normal."space"]
 c = "toggle_comments"
+C = ":buffer-close"
 
 [keys.insert]
 C-c = "normal_mode"
