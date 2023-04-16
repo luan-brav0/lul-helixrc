@@ -30,6 +30,9 @@ C = ":buffer-close"
 
 [keys.insert]
 C-c = "normal_mode"
+# For xkde terminal
+# TODO: find better system-wide (or terminal-wide) solution
+C-h = "delete_char_forward"
 
 [keys.select]
 C-c = "normal_mode"
